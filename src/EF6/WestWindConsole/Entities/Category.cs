@@ -9,9 +9,11 @@ using System.Threading.Tasks;
 namespace WestWindConsole.Entities
 {
     // TODO: Begin reviewing entity attributes
-    [Table("Categories")]
+    // Identifies which db table this entity represents (is mapped to)
+    [Table("Categories", Schema = "dbo")]
     public class Category
     {
+        //primary key
         [Key]
         public int CategoryID { get; set; }
 
