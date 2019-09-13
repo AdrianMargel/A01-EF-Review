@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace WestWindConsole.Entities
 {
     [Table("PaymentTypes")]
-    class PaymentType
+    public class PaymentType
     {
         [Key]
         public int PaymentTypeID { get; set; }

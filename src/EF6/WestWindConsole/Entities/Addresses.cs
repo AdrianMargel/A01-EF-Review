@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace WestWindConsole.Entities
 {
     [Table("Addresses")]
-    class Addresses
+    public class Addresses
     {
         [Key]
         public int AddressID { get; set; }

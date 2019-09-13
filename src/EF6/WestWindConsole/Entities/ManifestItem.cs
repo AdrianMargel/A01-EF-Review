@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace WestWindConsole.Entities
 {
     [Table("ManifestItems")]
-    class ManifestItem
+    public class ManifestItem
     {
         [Key]
         public int ManifestItemsID { get; set; }
